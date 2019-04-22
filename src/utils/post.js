@@ -1,8 +1,3 @@
-/**
- * 异步请求
- *
- * @author wubaiqing <wubaiqing@vip.qq.com>
- */
 import { assignWith, trim } from 'lodash';
 import axios from 'axios';
 import { Message } from 'element-ui';

@@ -9,17 +9,11 @@
       <el-col :span="20" class="nav-list">
         <ul>
           <li>
-            <el-dropdown trigger="click" @command="handleClick">
+            <el-dropdown trigger="click">
               <span class="el-dropdown-link">
                 <i class="xy-v2-yh"></i>欢迎<i class="xy-v2-arrow"></i>
               </span>
               <el-dropdown-menu slot="dropdown" class="dropdown-user">
-                <el-dropdown-item class="dropdown-item" command="modifyPhone" divided>
-                  修改登录手机号
-                </el-dropdown-item>
-                <el-dropdown-item class="dropdown-item" command="modifyPwd" divided
-                  >修改登录密码
-                </el-dropdown-item>
                 <el-dropdown-item class="dropdown-item" command="logout" divided
                   >退出登录</el-dropdown-item
                 >
