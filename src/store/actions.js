@@ -1,0 +1,33 @@
+// Start Dialog
+// - 用户
+export const USER_ID = 'USER_ID';
+export const USER_GRID = 'USER_GRID';
+export const USER_MESSAGE_GRID = 'USER_MESSAGE_GRID';
+export const USER_STATUS_GRID = 'USER_STATUS_GRID';
+export const USER_ORG_GRID = 'USER_ORG_GRID';
+export const CONTRACTOR_GRID = 'CONTRACTOR_GRID';
+
+// 交易流水
+export const FLOW_DETAIL_GRID = 'FLOW_DETAIL_GRID';
+export const FLOW_EXPORT_GRID = 'FLOW_EXPORT_GRID';
+
+// 安全校验
+export const SECURITY_CODE = 'SECURITY_CODE';
+
+// 设置部门结算表字段
+export const SET_STATISTIC_DEPARTMENT_COL = 'SET_STATISTIC_DEPARTMENT_COL';
+export const SET_STATISTIC_SHOP_COL = 'SET_STATISTIC_SHOP_COL';
+export const SET_STATISTIC_FLOW_COL = 'SET_STATISTIC_FLOW_COL';
+export const SET_STATISTIC_FINANCE_COL = 'SET_STATISTIC_FINANCE_COL';
+
+// 标记
+export const GEN_QR_BADGE = 'GEN_QR_BADGE';
+
+// 门店
+export const SHOP_BATCH_EDIT_CONTRACTOR = 'SHOP_BATCH_EDIT_CONTRACTOR';
+export const SHOP_BATCH_EDIT_ORG = 'SHOP_BATCH_EDIT_ORG';
+export const SHOP_CREATE_SHOP = 'SHOP_CREATE_SHOP';
+export const SHOP_EDIT_SHOP = 'SHOP_EDIT_SHOP';
+export const SHOP_VERIFY_CODE = 'SHOP_VERIFY_CODE';
+
+// End Dialog //
