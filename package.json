@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "vue-cli-service serve --fix",
+    "start": "vue-cli-service serve --open --copy --fix",
     "build": "yarn lint && vue-cli-service build",
     "lint": "vue-cli-service lint --mode production",
     "commit": "git-cz"
