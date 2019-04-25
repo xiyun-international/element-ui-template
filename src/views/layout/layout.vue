@@ -1,10 +1,10 @@
 <template>
   <el-container>
-    <el-header>
+    <el-header v-if="!isSimpleLayout">
       <header-grid></header-grid>
     </el-header>
     <el-container>
-      <el-aside width="240"> <menuBar></menuBar> </el-aside>
+      <el-aside width="240" v-if="!isSimpleLayout"> <menuBar></menuBar> </el-aside>
       <el-container>
         <el-main>
           <el-col>
@@ -13,7 +13,9 @@
             </div>
           </el-col>
         </el-main>
-        <el-footer style="height: 80px"> <footer-grid></footer-grid> </el-footer>
+        <el-footer style="height: 80px" v-if="!isSimpleLayout">
+          <footer-grid></footer-grid>
+        </el-footer>
       </el-container>
     </el-container>
   </el-container>
@@ -33,8 +35,20 @@ export default {
     headerGrid,
     menuBar,
   },
+  data() {
+    return {
+      mode: process.env.VUE_APP_MODE,
+    };
+  },
   created() {
-    this.$store.commit('ADD_MENU', menu);
+    if (!this.isSimpleLayout) {
+      this.$store.commit('ADD_MENU', menu);
+    }
+  },
+  computed: {
+    isSimpleLayout() {
+      return this.mode === 'simple';
+    },
   },
 };
 </script>
