@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import { setToken } from '@/utils/token';
 import menu from '../../config/menu';
 
 import menuBar from './menu.vue';
@@ -43,6 +44,9 @@ export default {
   created() {
     if (!this.isSimpleLayout) {
       this.$store.commit('ADD_MENU', menu);
+    } else {
+      // 每次刷新页面或重新进入页面都设置，避免token失效
+      setToken(this.$route.query.token);
     }
   },
   computed: {
