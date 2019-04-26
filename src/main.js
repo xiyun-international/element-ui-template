@@ -9,8 +9,11 @@ import App from './App.vue';
 
 import router from './router';
 import store from './store';
+import post from './utils/post';
 
 Vue.config.productionTip = false;
+
+Vue.prototype.$post = post;
 Vue.use(ElementUI);
 
 new Vue({
