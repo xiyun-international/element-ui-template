@@ -4,7 +4,7 @@
 
 本项目框架默认在执行 git commit 的时候调用了 hook 来检查提交消息的规范，
 意味着你在执行`git commit -am'feat: 增加新功能'`时，消息必须要写相应的前缀来标明这次提交的类型。
-类型可选项有：
+类型可选项有：     
 - feat：新增 feature
 - fix: 修复 bug
 - docs: 仅仅修改了文档，比如 README, CHANGELOG, CONTRIBUTE等等
