@@ -10,7 +10,7 @@
       <template v-for="(item, index) in menuRender">
         <template v-if="!item.children || item.children.length === 0">
           <!-- 一级菜单 -->
-          <el-menu-item style="padding-left: 25px;" :key="index" :index="item.index">
+          <el-menu-item :key="index" :index="item.index">
             <i :class="item.icon"></i>{{ item.name }}
           </el-menu-item>
         </template>
@@ -49,13 +49,3 @@ export default {
   }),
 };
 </script>
-<style scoped>
-.el-aside .el-menu {
-  border-right-width: 0;
-  background: 0 0;
-  width: 240px;
-}
-.qa {
-  text-decoration: none;
-}
-</style>

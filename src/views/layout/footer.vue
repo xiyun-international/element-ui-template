@@ -10,14 +10,3 @@ export default {
   name: 'footerGrid',
 };
 </script>
-<style scoped>
-.el-footer p {
-  text-align: center;
-  height: 20px;
-  line-height: 20px;
-  color: #909399;
-  font-size: 12px;
-  padding: 0;
-  margin: 0;
-}
-</style>

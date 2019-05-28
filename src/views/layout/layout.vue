@@ -4,16 +4,14 @@
       <header-grid></header-grid>
     </el-header>
     <el-container>
-      <el-aside width="240" v-if="!isSimpleLayout"> <menuBar></menuBar> </el-aside>
+      <el-aside width="240" v-if="!isSimpleLayout">
+        <menuBar></menuBar>
+      </el-aside>
       <el-container>
         <el-main>
-          <el-col>
-            <div class="main-content">
-              <router-view></router-view>
-            </div>
-          </el-col>
+          <router-view></router-view>
         </el-main>
-        <el-footer style="height: 80px" v-if="!isSimpleLayout">
+        <el-footer v-if="!isSimpleLayout">
           <footer-grid></footer-grid>
         </el-footer>
       </el-container>
@@ -56,23 +54,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-header.el-header {
-  padding: 0;
-  background-color: #3f9eff;
-}
-.el-aside {
-  background: #303133;
-  min-height: calc(100vh - 60px);
-}
-.el-footer {
-  height: 78px;
-  width: 100%;
-  padding: 21px 0 19px;
-  background: #fff;
-}
-.el-main {
-  background-color: #f7f7f7;
-  padding: 28px 24px;
-}
-</style>

@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import 'normalize.css';
+import '@xiyun/xy-element-ui/lib/index.css';
 import '../public/font.css';
 import '../public/main.css';
 
