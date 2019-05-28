@@ -10,7 +10,7 @@
     "commit": "git-cz"
   },
   "dependencies": {
-    "@xiyun/xy-element-ui": "^1.0.10",
+    "@xiyun/element-ui": "^1.0.10",
     "axios": "^0.17.0",
     "element-ui": "^2.7.2",
     "lodash": "^4.17.11",

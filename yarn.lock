@@ -2636,10 +2636,10 @@
     "@types/node" "^12.0.2"
     tslib "^1.9.3"
 
-"@xiyun/xy-element-ui@^1.0.10":
+"@xiyun/element-ui@^1.0.10":
   version "1.0.10"
-  resolved "https://registry.npm.taobao.org/@xiyun/xy-element-ui/download/@xiyun/xy-element-ui-1.0.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40xiyun%2Fxy-element-ui%2Fdownload%2F%40xiyun%2Fxy-element-ui-1.0.10.tgz#49ee12e8a35c231a007b32a2d6181eeb2310af42"
-  integrity sha1-Se4S6KNcIxoAezKi1hge6yMQr0I=
+  resolved "https://registry.npm.taobao.org/@xiyun/element-ui/download/@xiyun/element-ui-1.0.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40xiyun%2Felement-ui%2Fdownload%2F%40xiyun%2Felement-ui-1.0.10.tgz#9d7944d213aeaaf0bdccc3a9de5cded6aa9f63f6"
+  integrity sha1-nXlE0hOuqvC9zMOp3lze1qqfY/Y=
   dependencies:
     element-ui "~2.7.2"
     lodash "^4.17.11"
