@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@xiyun/element-ui": "^1.0.10",
-    "axios": "^0.17.0",
+    "axios": "^0.18.1",
     "element-ui": "^2.7.2",
     "lodash": "^4.17.11",
     "normalize.css": "^8.0.1",
