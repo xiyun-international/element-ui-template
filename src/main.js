@@ -8,12 +8,14 @@ import App from './App.vue';
 
 import router from './router';
 import store from './store';
-import post from './utils/post';
+import { post, get } from './utils/http';
 import './plugins/element';
 
 Vue.config.productionTip = false;
 
+// 设置 http 请求方法
 Vue.prototype.$post = post;
+Vue.prototype.$get = get;
 
 new Vue({
   router,

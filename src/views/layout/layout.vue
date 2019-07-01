@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { setToken } from '@/utils/token';
+import { setToken } from '@xiyun/utils';
 import menu from '../../config/menu';
 
 import menuBar from './menu.vue';

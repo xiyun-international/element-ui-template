@@ -2,5 +2,4 @@
 **/*.svg
 **/*.html
 **/*.ejs
-./public/qa/*
 package.json
