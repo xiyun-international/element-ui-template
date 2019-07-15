@@ -3,15 +3,18 @@ import 'normalize.css';
 import '@xiyun/element-ui/lib/index.css';
 import '../public/font.css';
 import '../public/main.css';
-
-import App from './App.vue';
-
+import './plugins/element';
+// eslint-disable-next-line
+import XyUI from '@xiyun/element-ui';
 import router from './router';
 import store from './store';
 import { post, get } from './utils/http';
-import './plugins/element';
+
+import App from './App.vue';
 
 Vue.config.productionTip = false;
+
+Vue.use(XyUI);
 
 // 设置 http 请求方法
 Vue.prototype.$post = post;
