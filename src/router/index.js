@@ -5,7 +5,7 @@ import GlobalMixin from '@/utils/global-mixin';
 import layout from '../views/layout/layout.vue';
 import login from '../views/login/login.vue';
 
-import children from './childrenRouter';
+import children from './children';
 
 Vue.use(VueRouter);
 

@@ -3,6 +3,10 @@
 </template>
 
 <script>
+/**
+ * 示例页面1路由
+ * @route('/statistic/department-stats')
+ */
 export default {
   name: 'other-page1',
 };
