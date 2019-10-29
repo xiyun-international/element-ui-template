@@ -21,7 +21,7 @@
 
 <script>
 import { setToken } from '@xiyun/utils';
-import menu from '../../config/menu';
+// import menu from '../../config/menu';
 
 import menuBar from './menu.vue';
 import headerGrid from './header.vue';
@@ -41,7 +41,9 @@ export default {
   },
   created() {
     if (!this.isSimpleLayout) {
-      this.$store.commit('ADD_MENU', menu);
+      this.$post('/menus').then(res => {
+        this.$store.commit('ADD_MENU', res.data);
+      });
     } else {
       // 每次刷新页面或重新进入页面都设置，避免token失效
       setToken(this.$route.query.token);

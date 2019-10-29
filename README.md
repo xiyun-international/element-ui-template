@@ -26,7 +26,14 @@ $ npm run lint
 
 ```
 
-
+### 本地 mock 接口
+mock 接口文件存放在 `__mock__` 目录下，使用禧云 mock 工具可以启动 mock 服务：
+```
+// 如果没有安装过 mock 插件，需要安装一下
+$ xy add @xiyun/xy-plugin-mock
+// 启动 mock 服务
+$ xy mock
+```
 
 ### 项目目录结构
 
