@@ -1,11 +1,10 @@
 import Vue from 'vue';
 import 'normalize.css';
 import '@xiyun/element-ui/lib/index.css';
+import XyUI from '@xiyun/element-ui';
 import '../public/font.css';
 import '../public/main.css';
 import './plugins/element';
-// eslint-disable-next-line
-import XyUI from '@xiyun/element-ui';
 import router from './router';
 import store from './store';
 import { post, get } from './utils/http';
